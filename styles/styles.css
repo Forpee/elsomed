@@ -1,0 +1,27 @@
+@font-face {
+  font-family: SG;
+  src: url(/SpaceGrotesk-Regular.094a738.woff);
+}
+body,
+html {
+  font-family: SG, sans-serif;
+  background-color: #fef8f3;
+}
+.bg-beige-100 {
+  background-color: #fef8f3;
+}
+.w-screen\/2 {
+  width: 50vw;
+}
+
+.w-100 {
+  width: 750px;
+}
+.w-97 {
+  width: 700px;
+}
+@media (min-width: 768px) {
+  .md\:w-100 {
+    width: 750px;
+  }
+}
